@@ -1,0 +1,511 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Основные цвета из статического сайта */
+  --background: rgb(249, 253, 254);
+  --foreground: rgb(30, 30, 30);
+  --card: rgb(255, 255, 255);
+  --card-foreground: rgb(30, 30, 30);
+  --popover: rgb(255, 255, 255);
+  --popover-foreground: rgb(30, 30, 30);
+  --primary: rgb(215, 190, 142);
+  --primary-foreground: rgb(30, 30, 30);
+  --secondary: rgb(139, 107, 48);
+  --secondary-foreground: rgb(255, 255, 255);
+  --muted: rgb(250, 242, 230);
+  --muted-foreground: rgb(105, 105, 105);
+  --accent: rgb(139, 107, 48);
+  --accent-foreground: rgb(255, 255, 255);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: rgb(240, 231, 214);
+  --input: rgb(240, 231, 214);
+  --ring: rgb(215, 190, 142);
+  --chart-1: rgb(215, 190, 142);
+  --chart-2: rgb(139, 107, 48);
+  --chart-3: oklch(0.65 0.1 80);
+  --chart-4: oklch(0.55 0.08 200);
+  --chart-5: oklch(0.7 0.12 60);
+  --radius: 0.625rem;
+
+  /* Shadow scale — warm-tinted */
+  --shadow-xs: 0 1px 2px rgba(139, 107, 48, 0.04);
+  --shadow-sm: 0 2px 8px rgba(139, 107, 48, 0.06);
+  --shadow-md: 0 4px 16px rgba(139, 107, 48, 0.08), 0 1px 4px rgba(30, 30, 30, 0.04);
+  --shadow-lg: 0 8px 32px rgba(139, 107, 48, 0.10), 0 2px 8px rgba(30, 30, 30, 0.04);
+  --shadow-xl: 0 16px 48px rgba(139, 107, 48, 0.14), 0 4px 12px rgba(30, 30, 30, 0.06);
+  --shadow-glow: 0 0 20px rgba(215, 190, 142, 0.25);
+
+  /* Ease */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Custom colors */
+  --terracotta: rgb(215, 190, 142);
+  --terracotta-light: rgb(220, 195, 150);
+  --cream: rgb(249, 253, 254);
+  --cream-dark: rgb(240, 231, 214);
+  --forest: rgb(139, 107, 48);
+  --gold: rgb(215, 190, 142);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.145 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.145 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.985 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: oklch(0.269 0 0);
+  --input: oklch(0.269 0 0);
+  --ring: oklch(0.439 0 0);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(0.269 0 0);
+  --sidebar-ring: oklch(0.439 0 0);
+}
+
+@theme inline {
+  --font-sans: var(--font-onest), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: var(--font-onest), system-ui, serif;
+  --font-mono: "Geist Mono", "Geist Mono Fallback", monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 16px);
+
+  --color-terracotta: var(--terracotta);
+  --color-terracotta-light: var(--terracotta-light);
+  --color-cream: var(--cream);
+  --color-cream-dark: var(--cream-dark);
+  --color-forest: var(--forest);
+  --color-gold: var(--gold);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+/* Скрытие с сохранением в DOM (пиксели счётчиков, доступность) */
+.sr-only-pixel {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+  }
+  
+  h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  h3 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  
+  h4 {
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  
+  h5 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  
+  h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  
+  p {
+    margin: 0 0 1.25rem 0;
+    line-height: 1.7;
+    letter-spacing: -0.005em;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    transition: opacity 0.2s ease, color 0.2s ease;
+  }
+  
+  a:hover { opacity: 0.8; }
+  
+  ul, ol {
+    margin: 0 0 1.25rem 0;
+    padding-left: 1.5rem;
+    line-height: 1.7;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  small {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  
+  strong, b {
+    font-weight: 600;
+  }
+  
+  em, i {
+    font-style: italic;
+  }
+  
+  button {
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  
+  input, textarea, select {
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+/* Custom selection color */
+::selection {
+  background-color: rgba(215, 190, 142, 0.3);
+}
+@supports (background-color: oklch(0 0 0)) {
+  ::selection {
+    background-color: oklch(0.55 0.14 40 / 0.3);
+  }
+}
+
+/* TravelLine Booking Form */
+#tl-booking-form {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Containers */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+button, .btn {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  transition: all 0.3s var(--ease-out-expo);
+}
+
+.card {
+  padding: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .card {
+    padding: 2rem;
+  }
+}
+
+.prose {
+  max-width: 65ch;
+  line-height: 1.75;
+}
+
+.prose p {
+  margin-bottom: 1.5rem;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.prose h1:first-child, .prose h2:first-child, .prose h3:first-child {
+  margin-top: 0;
+}
+
+/* ─── Site design primitives ─── */
+
+.site-container {
+  width: 100%;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .site-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .site-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.site-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .site-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.site-section-muted {
+  background: linear-gradient(180deg, var(--cream) 0%, rgb(255, 255, 255) 100%);
+}
+
+.site-section-soft {
+  background: linear-gradient(180deg, var(--cream-dark) 0%, var(--cream) 100%);
+}
+
+.site-eyebrow {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--terracotta);
+}
+
+.site-lead {
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  line-height: 1.75;
+  color: var(--muted-foreground);
+}
+
+.site-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background-color: var(--card);
+  box-shadow: var(--shadow-xs);
+  transition: box-shadow 0.4s var(--ease-out-expo), border-color 0.4s var(--ease-out-expo), transform 0.4s var(--ease-out-expo);
+}
+
+.site-card:hover {
+  border-color: var(--terracotta);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-3px);
+}
+@supports (border-color: color-mix(in srgb, red, blue)) {
+  .site-card:hover {
+    border-color: color-mix(in srgb, var(--terracotta) 60%, var(--border));
+  }
+}
+
+@layer utilities {
+  .preview-grid-card {
+    @apply relative w-full overflow-hidden rounded-xl shadow-md cursor-pointer;
+  }
+}
+
+/* ─── Glass morphism ─── */
+
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.glass-light {
+  background: rgba(249, 253, 254, 0.75);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: var(--shadow-sm);
+}
+
+.glass-dark {
+  background: rgba(30, 30, 30, 0.4);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 9999px;
+  padding: 0.375rem 1rem;
+}
+
+/* ─── Gradient overlays ─── */
+
+.gradient-hero-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(30, 30, 30, 0.45) 0%,
+    rgba(30, 30, 30, 0.2) 40%,
+    rgba(30, 30, 30, 0.35) 70%,
+    rgba(30, 30, 30, 0.65) 100%
+  );
+}
+
+.gradient-page-hero {
+  background: linear-gradient(
+    0deg,
+    rgba(30, 30, 30, 0.7) 0%,
+    rgba(30, 30, 30, 0.4) 50%,
+    rgba(30, 30, 30, 0.2) 100%
+  );
+}
+
+/* Hero: static fallback when video fails (no inline background-image in TSX) */
+.hero-video-fallback {
+  background-image: url("/luxury-spa-hotel-pool-with-sea-view-at-sunset--ter.jpg");
+}
+
+/* ─── Scrollbar hide ─── */
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+@supports (scrollbar-width: none) {
+  .scrollbar-hide {
+    scrollbar-width: none;
+  }
+}

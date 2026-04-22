@@ -1,0 +1,38 @@
+# PR-CY и др.: реальный UA содержит «PR-CY.RU» в середине строки Mozilla/5.0…
+User-agent: Mozilla/5.0 (compatible; PR-CY.RU
+Allow: /
+
+User-agent: pr-cy.ru Screenshot Bot
+Allow: /
+
+User-agent: PR-CY-BOT
+Allow: /
+
+User-agent: PR-CY
+Allow: /
+
+User-agent: PR-CY.RU
+Allow: /
+
+User-agent: *
+Allow: /
+
+Disallow: /api/
+Disallow: /_next/
+Allow: /_next/static/
+Disallow: /booking/thank-you
+
+Allow: /rooms
+Allow: /rooms/*
+Allow: /blog
+Allow: /blog/*
+Allow: /entertainment
+Allow: /entertainment/*
+Allow: /prices
+Allow: /booking
+Allow: /about
+Allow: /o-komplekse
+Allow: /restaurant
+Allow: /contacts
+
+Sitemap: https://priboy1.ru/sitemap.xml

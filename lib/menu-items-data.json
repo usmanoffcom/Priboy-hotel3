@@ -1,0 +1,644 @@
+[
+  {
+    "id": "dish-1",
+    "name": "ALT_Визитка",
+    "image": "/menu/dishes/alt_vizitka.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-2",
+    "name": "АДЖАПСАНДАЛ",
+    "image": "/menu/dishes/adzhapsandal.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-3",
+    "name": "АНГЛИЙСКИЙ ЗАВТРАК",
+    "image": "/menu/dishes/anglii_skii_zavtrak.jpg",
+    "category": "breakfast"
+  },
+  {
+    "id": "dish-4",
+    "name": "АССОРТИ МОРЕПРОДУКТОВ НА ГРИЛЕ",
+    "image": "/menu/dishes/assorti_moreproduktov_na_grile.jpg",
+    "category": "appetizers"
+  },
+  {
+    "id": "dish-5",
+    "name": "АССОРТИ МЯСНОЕ НА ГРИЛЕ",
+    "image": "/menu/dishes/assorti_myasnoe_na_grile.jpg",
+    "category": "appetizers"
+  },
+  {
+    "id": "dish-6",
+    "name": "АССОРТИ ОЛИВОК И МАСЛИН",
+    "image": "/menu/dishes/assorti_olivok_i_maslin.jpg",
+    "category": "salads"
+  },
+  {
+    "id": "dish-7",
+    "name": "АССОРТИ ПХАЛИ С РУЛЕТИКАМИ ИЗ БАКЛАЖАНОВ",
+    "image": "/menu/dishes/assorti_phali_s_ruletikami_iz_baklazhanov.jpg",
+    "category": "appetizers"
+  },
+  {
+    "id": "dish-8",
+    "name": "БАРАБУЛЯ",
+    "image": "/menu/dishes/barabulya.jpg",
+    "category": "fish"
+  },
+  {
+    "id": "dish-9",
+    "name": "БЕФСТРОГАНОВ",
+    "image": "/menu/dishes/befstroganov.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-10",
+    "name": "БОЛОНЬЕЗЕ",
+    "image": "/menu/dishes/bolon_eze.jpg",
+    "category": "pasta"
+  },
+  {
+    "id": "dish-11",
+    "name": "БОРЩ",
+    "image": "/menu/dishes/borsch.jpg",
+    "category": "soups"
+  },
+  {
+    "id": "dish-12",
+    "name": "БРАУНИ ШОКОЛАДНЫЙ",
+    "image": "/menu/dishes/brauni_shokoladnyi.jpg",
+    "category": "desserts"
+  },
+  {
+    "id": "dish-13",
+    "name": "БРУСКЕТТА С РОСТБИФОМ",
+    "image": "/menu/dishes/brusketta_s_rostbifom.jpg",
+    "category": "salads"
+  },
+  {
+    "id": "dish-14",
+    "name": "БРУСКЕТТА С ФОРЕЛЬЮ И АВОКАДО",
+    "image": "/menu/dishes/brusketta_s_forel_yu_i_avokado.jpg",
+    "category": "salads"
+  },
+  {
+    "id": "dish-15",
+    "name": "БУРГЕРЫ",
+    "image": "/menu/dishes/burgery.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-16",
+    "name": "ГЕДЛИБЖЕ",
+    "image": "/menu/dishes/gedlibzhe.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-17",
+    "name": "ГРУЗИНСКАЯ ПУРИ СО ВЗБИТЫМ МАСЛОМ",
+    "image": "/menu/dishes/gruzinskaya_puri_so_vzbitym_maslom.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-18",
+    "name": "ДОЛМА С БАРАНИНОЙ И СОУСОМ ЦАХТОН",
+    "image": "/menu/dishes/dolma_s_baraninoi_i_sousom_tsahton.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-19",
+    "name": "ДОРАДО",
+    "image": "/menu/dishes/dorado.jpg",
+    "category": "fish"
+  },
+  {
+    "id": "dish-20",
+    "name": "ЗАПЕЧЁННЫЙ СУЛУГУНИ С ЯГОДНЫМ СОУСОМ",
+    "image": "/menu/dishes/zapeche_nnyi_suluguni_s_yagodnym_sousom.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-21",
+    "name": "ЗЕЛЁНАЯ ГРЕЧКА С ПЕСТО ИЗ ПЕТРУШКИ",
+    "image": "/menu/dishes/zele_naya_grechka_s_pesto_iz_petrushki.jpg",
+    "category": "sides"
+  },
+  {
+    "id": "dish-22",
+    "name": "ИНДЕЙКА НА ГРИЛЕ С ОВОЩАМИ",
+    "image": "/menu/dishes/indei_ka_na_grile_s_ovoschami.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-23",
+    "name": "КАВКАЗСКИЕ СЫРЫ",
+    "image": "/menu/dishes/kavkazskie_syry.jpg",
+    "category": "appetizers"
+  },
+  {
+    "id": "dish-24",
+    "name": "КАРБОНАРА",
+    "image": "/menu/dishes/karbonara.jpg",
+    "category": "pasta"
+  },
+  {
+    "id": "dish-25",
+    "name": "КАРТОФЕЛЬ БЕЙБИ С ГРИБАМИ",
+    "image": "/menu/dishes/kartofel_bei_bi_s_gribami.jpg",
+    "category": "sides"
+  },
+  {
+    "id": "dish-26",
+    "name": "КАРТОФЕЛЬ ФРИ",
+    "image": "/menu/dishes/kartofel_fri.jpg",
+    "category": "sides"
+  },
+  {
+    "id": "dish-27",
+    "name": "КАРТОФШИПС С ДОМАШНИМ ЦЫПЛЁНКОМ И СМЕТАНОЙ",
+    "image": "/menu/dishes/kartofships_s_domashnim_tsyple_nkom_i_smetanoi.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-28",
+    "name": "КОПЧЁНЫЙ АНТРЕКОТ С ПАСТОЙ ИЗ ПШЕНА",
+    "image": "/menu/dishes/kopche_nyi_antrekot_s_pastoi_iz_pshena.jpg",
+    "category": "mains"
+  },
+  {
+    "id": "dish-29",
+    "name": "КОПЧЁНЫЙ КУРИНЫЙ ОКОРОЧОК С ПАСТОЙ ИЗ ПШЕНА И ОСТРЫМ СЛИВОЧНЫМ СОУСОМ",
+    "image": "/menu/dishes/kopche_nyi_kurinyi_okorochok_s_pastoi_iz_pshena_i_ostrym_slivochnym_sousom.jpg",
+    "category": "mains"
+  },
+  {
+    "id": "dish-30",
+    "name": "КРЕВЕТКИ НА УГЛЯХ",
+    "image": "/menu/dishes/krevetki_na_uglyah.jpg",
+    "category": "fish"
+  },
+  {
+    "id": "dish-31",
+    "name": "КРЕМ-СУП ГРИБНОЙ",
+    "image": "/menu/dishes/krem-sup_gribnoi.jpg",
+    "category": "soups"
+  },
+  {
+    "id": "dish-32",
+    "name": "КРЕМ-СУП ЧЕЧЕВИЧНЫЙ",
+    "image": "/menu/dishes/krem-sup_chechevichnyi.jpg",
+    "category": "soups"
+  },
+  {
+    "id": "dish-33",
+    "name": "КУТАБ С ЗЕЛЕНЬЮ",
+    "image": "/menu/dishes/kutab_s_zelen_yu.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-34",
+    "name": "КУТАБ С СЫРОМ",
+    "image": "/menu/dishes/kutab_s_syrom.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-35",
+    "name": "ЛОБИО ПО-МЕГРЕЛЬСКИ С ГУРИЙСКОЙ КАПУСТОЙ",
+    "image": "/menu/dishes/lobio_po-megrel_ski_s_gurii_skoi_kapustoi.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-36",
+    "name": "ЛЮЛЯ-КЕБАБ ИЗ ГОВЯДИНЫ-БАРАНИНЫ",
+    "image": "/menu/dishes/lyulya-kebab_iz_govyadiny-baraniny.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-37",
+    "name": "ЛЮЛЯ-КЕБАБ ИЗ КУРИЦЫ",
+    "image": "/menu/dishes/lyulya-kebab_iz_kuritsy.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-38",
+    "name": "МИНИ ПИЦЦА С КУРИЦЕЙ",
+    "image": "/menu/dishes/mini_pitstsa_s_kuritsei.jpg",
+    "category": "pizza"
+  },
+  {
+    "id": "dish-39",
+    "name": "МИНИ ХАЧАПУРИ ПО-АДЖАРСКИ",
+    "image": "/menu/dishes/mini_hachapuri_po-adzharski.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-40",
+    "name": "МОРОЖЕНОЕ",
+    "image": "/menu/dishes/morozhenoe.jpg",
+    "category": "desserts"
+  },
+  {
+    "id": "dish-41",
+    "name": "МЯСНАЯ ГАСТРОНОМИЯ",
+    "image": "/menu/dishes/myasnaya_gastronomiya.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-42",
+    "name": "НАГГЕТСЫ",
+    "image": "/menu/dishes/naggetsy.jpg",
+    "category": "breakfast"
+  },
+  {
+    "id": "dish-43",
+    "name": "ОВОЩИ ГРИЛЬ",
+    "image": "/menu/dishes/ovoschi_gril.jpg",
+    "category": "sides"
+  },
+  {
+    "id": "dish-44",
+    "name": "ОВСЯНАЯ КАША С ФРУКТАМИ",
+    "image": "/menu/dishes/ovsyanaya_kasha_s_fruktami.jpg",
+    "category": "breakfast"
+  },
+  {
+    "id": "dish-45",
+    "name": "ОДЖАХУРИ ИЗ БАРАНИНЫ-СВИНИНЫ",
+    "image": "/menu/dishes/odzhahuri_iz_baraniny-svininy.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-46",
+    "name": "ПАНКЕЙКИ С СОЛЁНОЙ КАРАМЕЛЬЮ И БАНАНОМ",
+    "image": "/menu/dishes/pankei_ki_s_sole_noi_karamel_yu_i_bananom.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-47",
+    "name": "ПАРОВЫЕ КОТЛЕТЫ С КАРТОФЕЛЬНЫМ ПЮРЕ",
+    "image": "/menu/dishes/parovye_kotlety_s_kartofel_nym_pyure.jpg",
+    "category": "mains"
+  },
+  {
+    "id": "dish-48",
+    "name": "ПЕЛЬМЕНИ С УТКОЙ",
+    "image": "/menu/dishes/pel_meni_s_utkoi.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-49",
+    "name": "ПЕЛЬМЕНИ С ФОРЕЛЬЮ",
+    "image": "/menu/dishes/pel_meni_s_forel_yu.jpg",
+    "category": "fish"
+  },
+  {
+    "id": "dish-50",
+    "name": "ПИЦЦА 4 СЫРА",
+    "image": "/menu/dishes/pitstsa_4_syra.jpg",
+    "category": "pizza"
+  },
+  {
+    "id": "dish-51",
+    "name": "ПИЦЦА МАРГАРИТА",
+    "image": "/menu/dishes/pitstsa_margarita.jpg",
+    "category": "pizza"
+  },
+  {
+    "id": "dish-52",
+    "name": "ПИЦЦА ПЕППЕРОНИ",
+    "image": "/menu/dishes/pitstsa_pepperoni.jpg",
+    "category": "pizza"
+  },
+  {
+    "id": "dish-53",
+    "name": "ПИЦЦА С ГРУШЕЙ, СОУСОМ БАЛЬЗАМИК И СЫРОМ ДОРБЛЮ",
+    "image": "/menu/dishes/pitstsa_s_grushei_sousom_bal_zamik_i_syrom_dorblyu.jpg",
+    "category": "pizza"
+  },
+  {
+    "id": "dish-54",
+    "name": "ПИЦЦА С МОРТАДЕЛЛОЙ И СТРАЧАТЕЛЛОЙ",
+    "image": "/menu/dishes/pitstsa_s_mortadelloi_i_strachatelloi.jpg",
+    "category": "pizza"
+  },
+  {
+    "id": "dish-55",
+    "name": "ПОХМЕЛЬНЫЙ СУП С МИНИ-ХИНКАЛЯМИ",
+    "image": "/menu/dishes/pohmel_nyi_sup_s_mini-hinkalyami.jpg",
+    "category": "soups"
+  },
+  {
+    "id": "dish-56",
+    "name": "ПЮРЕ КАРТОФЕЛЬНОЕ С ПАРМЕЗАНОМ",
+    "image": "/menu/dishes/pyure_kartofel_noe_s_parmezanom.jpg",
+    "category": "sides"
+  },
+  {
+    "id": "dish-57",
+    "name": "САЛАТ ГРЕЧЕСКИЙ",
+    "image": "/menu/dishes/salat_grecheskii.jpg",
+    "category": "salads"
+  },
+  {
+    "id": "dish-58",
+    "name": "САЛАТ ДЕРЕВЕНСКИЙ",
+    "image": "/menu/dishes/salat_derevenskii.jpg",
+    "category": "salads"
+  },
+  {
+    "id": "dish-59",
+    "name": "САЛАТ ИЗ РОЗОВЫХ ПОМИДОРОВ С СЫРОМ ЧАНАХИ",
+    "image": "/menu/dishes/salat_iz_rozovyh_pomidorov_s_syrom_chanahi.jpg",
+    "category": "salads"
+  },
+  {
+    "id": "dish-60",
+    "name": "САЛАТ ПО-ГРУЗИНСКИ СО СПЕЦИЯМИ И ОРЕХАМИ",
+    "image": "/menu/dishes/salat_po-gruzinski_so_spetsiyami_i_orehami.jpg",
+    "category": "salads"
+  },
+  {
+    "id": "dish-61",
+    "name": "САЛАТ С РОСТБИФОМ И ПЕЧЁНЫМ ПЕРЦЕМ",
+    "image": "/menu/dishes/salat_s_rostbifom_i_peche_nym_pertsem.jpg",
+    "category": "salads"
+  },
+  {
+    "id": "dish-62",
+    "name": "САЛАТ С ФОРЕЛЬЮ И РУККОЛОЙ",
+    "image": "/menu/dishes/salat_s_forel_yu_i_rukkoloi.jpg",
+    "category": "salads"
+  },
+  {
+    "id": "dish-63",
+    "name": "САЛАТ С ХРУСТЯЩИМИ БАКЛАЖАНАМИ И СЛИВОЧНЫМ СЫРОМ",
+    "image": "/menu/dishes/salat_s_hrustyaschimi_baklazhanami_i_slivochnym_syrom.jpg",
+    "category": "salads"
+  },
+  {
+    "id": "dish-64",
+    "name": "САЛАТ ЦЕЗАРЬ С КРЕВЕТКАМИ",
+    "image": "/menu/dishes/salat_tsezar_s_krevetkami.jpg",
+    "category": "salads"
+  },
+  {
+    "id": "dish-65",
+    "name": "САЛАТ ЦЕЗАРЬ С КУРИНЫМ БЕДРОМ НА ГРИЛЕ",
+    "image": "/menu/dishes/salat_tsezar_s_kurinym_bedrom_na_grile.jpg",
+    "category": "salads"
+  },
+  {
+    "id": "dish-66",
+    "name": "САЛО С ЧЕСНОЧНЫМИ ГРЕНКАМИ И ГОРЧИЦЕЙ",
+    "image": "/menu/dishes/salo_s_chesnochnymi_grenkami_i_gorchitsei.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-67",
+    "name": "СВЕЖИЕ ОВОЩИ",
+    "image": "/menu/dishes/svezhie_ovoschi.jpg",
+    "category": "sides"
+  },
+  {
+    "id": "dish-68",
+    "name": "СВИНЫЕ РЁБРЫШКИ С КОУЛСЛОУ И АЗИАТСКИМ СОУСОМ",
+    "image": "/menu/dishes/svinye_re_bryshki_s_koulslou_i_aziatskim_sousom.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-69",
+    "name": "СТЕЙК ИЗ БРОККОЛИ НА ГРИЛЕ С СОУСОМ КАРРИ",
+    "image": "/menu/dishes/stei_k_iz_brokkoli_na_grile_s_sousom_karri.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-70",
+    "name": "СТЕЙК ФОРЕЛИ В СЛИВОЧНОМ СОУСЕ С РУККОЛОЙ",
+    "image": "/menu/dishes/stei_k_foreli_v_slivochnom_souse_s_rukkoloi.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-71",
+    "name": "СУП ЛАПША КУРИНАЯ",
+    "image": "/menu/dishes/sup_lapsha_kurinaya.jpg",
+    "category": "soups"
+  },
+  {
+    "id": "dish-72",
+    "name": "СЫРНИКИ",
+    "image": "/menu/dishes/syrniki.jpg",
+    "category": "breakfast"
+  },
+  {
+    "id": "dish-73",
+    "name": "ТАРЕЛКА РАЗНОСОЛОВ",
+    "image": "/menu/dishes/tarelka_raznosolov.jpg",
+    "category": "appetizers"
+  },
+  {
+    "id": "dish-74",
+    "name": "ТВОРОЖНАЯ ЗАПЕКАНКА С ЯГОДНЫМ КОНФИТЮРОМ",
+    "image": "/menu/dishes/tvorozhnaya_zapekanka_s_yagodnym_konfityurom.jpg",
+    "category": "breakfast"
+  },
+  {
+    "id": "dish-75",
+    "name": "ТИРАМИСУ",
+    "image": "/menu/dishes/tiramisu.jpg",
+    "category": "desserts"
+  },
+  {
+    "id": "dish-76",
+    "name": "ТОМ-ЯМ",
+    "image": "/menu/dishes/tom-yam.jpg",
+    "category": "soups"
+  },
+  {
+    "id": "dish-77",
+    "name": "ТРЕСКА С БРОККОЛИ И СОУСОМ БЕРБЛАН",
+    "image": "/menu/dishes/treska_s_brokkoli_i_sousom_berblan.jpg",
+    "category": "fish"
+  },
+  {
+    "id": "dish-78",
+    "name": "ТУНЕЦ С КАРТОФЕЛЕМ БЕЙБИ И МУССОМ ПАРМЕЗАН",
+    "image": "/menu/dishes/tunets_s_kartofelem_bei_bi_i_mussom_parmezan.jpg",
+    "category": "fish"
+  },
+  {
+    "id": "dish-79",
+    "name": "УХА РАЗНОРЫБИЦА",
+    "image": "/menu/dishes/uha_raznorybitsa.jpg",
+    "category": "soups"
+  },
+  {
+    "id": "dish-80",
+    "name": "ФЕТТУЧИНИ С КРЕВЕТКАМИ И ШПИНАТНЫМ СОУСОМ",
+    "image": "/menu/dishes/fettuchini_s_krevetkami_i_shpinatnym_sousom.jpg",
+    "category": "pasta"
+  },
+  {
+    "id": "dish-81",
+    "name": "ФЕТТУЧИНИ С КУРИЦЕЙ И ГРИБАМИ",
+    "image": "/menu/dishes/fettuchini_s_kuritsei_i_gribami.jpg",
+    "category": "pasta"
+  },
+  {
+    "id": "dish-82",
+    "name": "ФИЛЕ ДОМАШНЕЙ КУРИЦЫ НА УГЛЯХ В ГОРЧИЧНО-МЕДОВОМ МАРИНАДЕ",
+    "image": "/menu/dishes/file_domashnei_kuritsy_na_uglyah_v_gorchichno-medovom_marinade.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-83",
+    "name": "ФИЛЕ МИНЬОН С СОУСОМ БАВЕТ",
+    "image": "/menu/dishes/file_min_on_s_sousom_bavet.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-84",
+    "name": "ФИЛЕ СЕЛЬДИ С КАРТОФЕЛЕМ БЕЙБИ",
+    "image": "/menu/dishes/file_sel_di_s_kartofelem_bei_bi.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-85",
+    "name": "ФОРЕЛЬ МАЛОГО ПОСОЛА",
+    "image": "/menu/dishes/forel_malogo_posola.jpg",
+    "category": "fish"
+  },
+  {
+    "id": "dish-86",
+    "name": "ХАРЧО С ГОВЯДИНОЙ",
+    "image": "/menu/dishes/harcho_s_govyadinoi.jpg",
+    "category": "soups"
+  },
+  {
+    "id": "dish-87",
+    "name": "ХАЧАПУРИ ПО-АДЖАРСКИ С КАМАМБЕРОМ",
+    "image": "/menu/dishes/hachapuri_po-adzharski_s_kamamberom.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-88",
+    "name": "ХАЧАПУРИ ПО-АДЖАРСКИ",
+    "image": "/menu/dishes/hachapuri_po-adzharski.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-89",
+    "name": "ХАЧАПУРИ ПО-ДОМАШНЕМУ",
+    "image": "/menu/dishes/hachapuri_po-domashnemu.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-90",
+    "name": "ХАЧАПУРИ ПО-ИМЕРЕТИНСКИ",
+    "image": "/menu/dishes/hachapuri_po-imeretinski.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-91",
+    "name": "ХАЧАПУРИ ПО-МЕГРЕЛЬСКИ",
+    "image": "/menu/dishes/hachapuri_po-megrel_ski.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-92",
+    "name": "ХИНКАЛИ КЛАССИЧЕСКИЕ",
+    "image": "/menu/dishes/hinkali_klassicheskie.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-93",
+    "name": "ХИНКАЛИ С ГОВЯДИНОЙ",
+    "image": "/menu/dishes/hinkali_s_govyadinoi.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-94",
+    "name": "ХИНКАЛИ С КРЕВЕТКОЙ",
+    "image": "/menu/dishes/hinkali_s_krevetkoi.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-95",
+    "name": "ХИНКАЛИ С ЯГНЁНКОМ",
+    "image": "/menu/dishes/hinkali_s_yagne_nkom.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-96",
+    "name": "ХЛЕБНАЯ КОРЗИНА СО ВЗБИТЫМ МАСЛОМ",
+    "image": "/menu/dishes/hlebnaya_korzina_so_vzbitym_maslom.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-97",
+    "name": "ЦВЕТНЫЕ ВАРЕНИКИ С КАРТОФЕЛЕМ",
+    "image": "/menu/dishes/tsvetnye_vareniki_s_kartofelem.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-98",
+    "name": "ЦВЕТНЫЕ ПЕЛЬМЕНИ С КУРИЦЕЙ",
+    "image": "/menu/dishes/tsvetnye_pel_meni_s_kuritsei.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-99",
+    "name": "ЧИЗКЕЙК МАРАКУЙЯ-ТЫКВА",
+    "image": "/menu/dishes/chizkei_k_marakui_ya-tykva.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-100",
+    "name": "ЧКМЕРУЛИ",
+    "image": "/menu/dishes/chkmeruli.jpg",
+    "category": "georgian"
+  },
+  {
+    "id": "dish-101",
+    "name": "ШАКШУКА",
+    "image": "/menu/dishes/shakshuka.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-102",
+    "name": "ШАМПИНЬОНЫ НА МАНГАЛЕ",
+    "image": "/menu/dishes/shampin_ony_na_mangale.jpg",
+    "category": "other"
+  },
+  {
+    "id": "dish-103",
+    "name": "ШАШЛЫК ИЗ КАРЕ БАРАНИНЫ",
+    "image": "/menu/dishes/shashlyk_iz_kare_baraniny.jpg",
+    "category": "mains"
+  },
+  {
+    "id": "dish-104",
+    "name": "ШАШЛЫК ИЗ КУРИНОГО БЕДРА",
+    "image": "/menu/dishes/shashlyk_iz_kurinogo_bedra.jpg",
+    "category": "mains"
+  },
+  {
+    "id": "dish-105",
+    "name": "ШАШЛЫК ИЗ СВИНОЙ ШЕИ",
+    "image": "/menu/dishes/shashlyk_iz_svinoi_shei.jpg",
+    "category": "mains"
+  },
+  {
+    "id": "dish-106",
+    "name": "ШТРУДЕЛЬ ВИШНЁВЫЙ",
+    "image": "/menu/dishes/shtrudel_vishne_vyi.jpg",
+    "category": "desserts"
+  },
+  {
+    "id": "dish-107",
+    "name": "ЯИЧНИЦА ПО-КАБАРДИНСКИ",
+    "image": "/menu/dishes/yaichnitsa_po-kabardinski.jpg",
+    "category": "breakfast"
+  }
+]

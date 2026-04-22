@@ -1,0 +1,13 @@
+.DS_Store
+
+# Environment files with sensitive data
+.env.deploy
+.env
+.env.local
+.env.*.local
+
+# Deployment credentials (NEVER commit to Git!)
+.deploy-credentials.local
+
+# Deployment scripts may contain sensitive info in history
+# (already fixed, but keep this for future reference)
