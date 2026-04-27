@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     index: false,
     follow: false,
   },
+  alternates: {
+    canonical: "https://priboy1.ru/booking/thank-you",
+  },
   openGraph: {
     title: "Заявка принята | Гостиница Прибой",
     description: "Ваша заявка на бронирование успешно принята. Мы свяжемся с вами в ближайшее время.",

@@ -7,8 +7,15 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   assetPrefix: CDN_URL,
-  async rewrites() {
-    return [{ source: '/feeds/rooms.yml', destination: '/feeds/rooms' }]
+  async redirects() {
+    // Один канонический URL фида — иначе дубликат контента (GSC: другой canonical)
+    return [
+      {
+        source: '/feeds/rooms.yml',
+        destination: '/feeds/rooms',
+        permanent: true,
+      },
+    ]
   },
   images: {
     formats: ['image/avif', 'image/webp'],

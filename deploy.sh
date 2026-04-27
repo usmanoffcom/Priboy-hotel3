@@ -75,6 +75,7 @@ RSYNC_CMD --delete \
   --exclude '*.log' \
   --exclude '.env' \
   --exclude '.env.local' \
+  --exclude '.env.deploy' \
   "$LOCAL_DIR/" "$USER@$HOST:$REMOTE_DIR/"
 
 # .env на сервере перезаписываем только если переданы секреты;
