@@ -3,9 +3,10 @@ import { Footer } from "@/components/footer"
 import { HeroSection } from "@/components/hero-section"
 import { FeaturesSection } from "@/components/features-section"
 import { RoomsPreview } from "@/components/rooms-preview"
-import { RestaurantPreview } from "@/components/spa-preview"
+import { RestaurantPreview } from "@/components/restaurant-preview"
 import { AquaComplexPreview } from "@/components/aqua-complex-preview"
 import { HotelPreview } from "@/components/hotel-preview"
+import { TelegramNewsSection } from "@/components/telegram-news-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { CtaSection } from "@/components/cta-section"
 import { FaqSection } from "@/components/faq-section"
@@ -46,6 +47,7 @@ export default function HomePage() {
         <RestaurantPreview />
         <AquaComplexPreview />
         <HotelPreview />
+        <TelegramNewsSection />
         <PromoBanner />
         <TestimonialsSection />
         <FaqSection />
