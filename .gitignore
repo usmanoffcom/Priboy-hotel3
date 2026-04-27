@@ -1,5 +1,9 @@
 .DS_Store
 
+# Dependencies & local build output
+node_modules/
+.next/
+
 # Environment files with sensitive data
 .env.deploy
 .env
